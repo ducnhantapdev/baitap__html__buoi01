@@ -1,0 +1,23 @@
+.line {
+    height: 3px;
+
+}
+/* wrapper header */
+.wrapper__header {
+    background-color: red;
+}
+
+.wrapper__header h1 {
+    color: white;
+    text-align: center;
+}
+
+.wrapper__menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper__menu ul li {
+    padding-bottom: 10px;
+}

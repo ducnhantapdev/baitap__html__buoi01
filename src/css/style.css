@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.hr__1 {
+    height: 3px;
+}
+
+.hr__2 {
+    height: 3px;
+}
+
+.hr__3 {
+    height: 3.5px;
+}
+#wrapper {
+    width: 100%;
+}
+/*      wrapper__header      */
+.wrapper__header {
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 21px 0 21.5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.wrapper__header h1 {
+    margin: 0;
+}
+
+/*      wrapper__header      */
+.wrapper__menu {
+   
+}
+.wrapper__menu .nav__menu__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+        padding-right: 4.1px;
+        float: left;
+     
+    }
+}
+
+/*      Coffee      */
+#coffee {
+    color: brown;
+}
+#coffee h1 {
+    color: black;
+    text-align: center;
+    padding-top: 0.4px;
+    padding-bottom: 0.4px;
+    
+}
+
+
+#coffee .coffee__lorems span {
+    color: red;
+}
+
+/*      Coffee  List   */
+#coffee__list .coffee__image img {
+    width: 100%;
+}
+
+/*      Tea       */
+#tea h1 {
+    text-align: center;
+}
+
+#tea .tea__lorems p {
+    text-align: right;
+    color: blue;
+}
+
+/*  Tea Menu    */
+#tea__menu .tea__image img {
+    width: 100%;
+}
